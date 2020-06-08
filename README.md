@@ -3,7 +3,7 @@ logo_set add menu item into Dolphin file manager for logotype setting on photo.
 Work with jpg-photo and png-logo files.
 
 # What does it do?
-logo_set does two things:
+logo_set does next things:
 - resizes image to 1920x1920 (if the photo has more resolution);
 - adds logo into  bottom left corner;
 - creates with_logo_bl directory in original image directory;

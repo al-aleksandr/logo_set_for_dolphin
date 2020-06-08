@@ -1,0 +1,12 @@
+[Desktop Entry]
+ServiceTypes=KonqPopupMenu/Plugin
+X-KDE-Priority=TopLevel
+Type=Service
+MimeType=image/jpeg
+Actions=LogoSetFile
+
+[Desktop Action LogoSetFile]
+Name=Add Logo (bot_left)
+Name[ru]=Добавить логотип (нижний левый)
+Icon=$HOME/.local/share/logo_set/logo.png
+Exec=konsole -e $HOME/.local/share/logo_set/logo_set_file.sh "%u"
